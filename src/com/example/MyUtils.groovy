@@ -10,7 +10,7 @@ class MyUtils {
     }
 
     static void sayHello() {
-        println 'Hello, World!'
+        echo 'Hello, World!'
     }
 
     def greeting(Map config = [:]) {
