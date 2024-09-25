@@ -12,5 +12,9 @@ class MyUtils {
     def sayHello() {
         steps.echo 'Hello, World!'
     }
+
+    def greeting(Map config = [:]) {
+        steps.echo "here it is ${config.name}"
+    }
 }
 
