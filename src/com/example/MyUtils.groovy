@@ -9,12 +9,13 @@ class MyUtils {
         this.steps = steps
     }
 
-    def sayHello() {
-        steps.echo 'Hello, World!'
+    static void sayHello() {
+        println 'Hello, World!'
     }
 
     def greeting(Map config = [:]) {
         steps.echo "here it is ${config.name}"
     }
 }
+
 
